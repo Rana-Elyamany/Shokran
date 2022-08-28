@@ -107,15 +107,17 @@
 }
 .home .row1 .prt2{
     width: 45%;
-    margin: 20px 0px;
+    height: 360px;
+    margin: auto;
     position: relative;
 }
 .home .row1 .prt2 img{
     width: 90%;
+    height: 100%;
     margin: auto;
     transition: all 2s;
     position: absolute;
-    top:10px;
+    top:0px;
     animation-name: animation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -126,19 +128,19 @@
     top:20px;
    }
   30%{
-    top: 10px;
+    top: 0px;
    }
    45%{
     top: 20px;
    }
    60%{
-    top:10px;
+    top:0px;
    }
    80%{
     top:20px;
    }
    100%{
-    top: 10px;
+    top: 0px;
    }
 
 
@@ -146,6 +148,9 @@
 .home .row1 .prt1  {
     margin: 20px -5px;
     padding: 20px;
+}
+.home .row1 .prt1 div{
+    margin: 40px 15px;
 }
 .home .row1 .prt1 div button{
     width: 150px;
@@ -156,6 +161,7 @@
     border: none;
     font-size: 17px;
     font-weight: 600;
+    
 }
 .home .row1 .prt1 div button:hover{
     background-color:#3993EE;
@@ -705,9 +711,13 @@ color: rgb(55, 81, 126);
     }
     .home .nav .prt2 ul .bar{
        
-        display:revert;
+        display:contents;
        font-size: 30px; 
        margin-top: 15px;
+       margin-bottom: -10px;
+    }
+    .fa-solid, .fas {
+        margin-top: 20px;
     }
     .home .row1{
         width: 100%;
@@ -717,19 +727,19 @@ color: rgb(55, 81, 126);
     }
     .home .row1 .prt1{
         width: 90%;
-        margin:200px auto 70px;
+        margin:0px auto 70px;
         padding: 0;
     }
     .home .row1 .prt2{
         width: 80%;
-        margin: 90px auto;
+        margin: 90px auto 20px;
     }
     .home .row1 .prt2 img{
         height: auto;
     }
     .home .row1 .prt1 h1{
         width: 100%;
-        margin: 40px auto;
+        margin: 0px auto 20px;
         padding: 0;
         font-size: 28px;
         text-align: center;
